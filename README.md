@@ -17,9 +17,9 @@ The process involves:
 ## Step 2:  Fraction-Based Filtering of Interacting Residues in Protein Domain Interactions
 Building on the previous step, this stage involves sorting residues based on interacting partners and further filtering based on a fraction metric. 
 The process includes: 
- Sorting residues initially filtered in Step 1 based on interacting partners. 
- Applying a fraction metric, filtering residues with a fraction less than 0.2. 
- Retaining residues with a fraction equal to or greater than 0.2, signifying their significance in interactions between protein domains. 
+✔ Sorting residues initially filtered in Step 1 based on interacting partners. 
+✔ Applying a fraction metric, filtering residues with a fraction less than 0.2. 
+✔ Retaining residues with a fraction equal to or greater than 0.2, signifying their significance in interactions between protein domains. 
 
 ## Step 3:  Aggregating Acceptor-Donor Residue Pairs for Molecular-Level Analysis 
 Following the fraction-based filtration, the refined dataset is used to determine Acceptor-Donor Residue Pairs. 
