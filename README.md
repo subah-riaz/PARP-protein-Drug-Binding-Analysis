@@ -24,9 +24,9 @@ The process includes:
 ## Step 3:  Aggregating Acceptor-Donor Residue Pairs for Molecular-Level Analysis 
 Following the fraction-based filtration, the refined dataset is used to determine Acceptor-Donor Residue Pairs. 
 The steps include: 
- Unifying rows to generate consolidated entries, combining acceptor and donor residue pairs. 
- Introducing 'Count' and 'Frames' columns to capture the number of unified rows and the total frames. 
- Calculating the 'Fraction' (Frac) to normalize the occurrence of the residue pair based on total simulation frames and count. 
+1. Unifying rows to generate consolidated entries, combining acceptor and donor residue pairs. 
+2. Introducing 'Count' and 'Frames' columns to capture the number of unified rows and the total frames. 
+3. Calculating the 'Fraction' (Frac) to normalize the occurrence of the residue pair based on total simulation frames and count. 
  Generating a CSV output file containing Acceptor-Donor Residue Pairs alongside 'Frames,' 'Frac,' and 'Count' columns. 
  This step provides comprehensive insights into molecular interactions within specified protein domains. 
 
